@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/teal_700"> <!-- Optional translucent background -->
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:keepScreenOn="true"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/nav_graph"
+            android:layout_marginTop="?android:attr/actionBarSize"
+            tools:context=".MainActivity" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/toolbar_bg">
+
+            <!-- LinearLayout to shift left -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginStart="-12dp"
+                android:gravity="center_vertical">
+
+                <!-- TEXT Button -->
+                <Button
+                    android:id="@+id/textButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Text"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:textColor="#A1D490"
+                    android:fontFamily="@font/google_sans_bold" />
+
+                <!-- OBJECT Button -->
+                <Button
+                    android:id="@+id/objectButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Object"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:textColor="#A1D490"
+                    android:fontFamily="@font/google_sans_bold" />
+
+                <!-- SIGN OUT Button -->
+                <Button
+                    android:id="@+id/signOutButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sign Out"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    android:textColor="#A1D490"
+                    android:fontFamily="@font/google_sans_bold" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

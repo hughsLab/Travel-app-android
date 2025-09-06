@@ -1,0 +1,1 @@
+C:\Users\hughm\AndroidStudioProjects\Travel app\app\build\intermediates\cxx\RelWithDebInfo\405n592v\obj\armeabi-v7a

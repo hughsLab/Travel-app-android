@@ -1,0 +1,3 @@
+C:/Users/hughm/AndroidStudioProjects/Travel app/app/.cxx/Debug/671e5a4j/x86/CMakeFiles/image_processing.dir
+C:/Users/hughm/AndroidStudioProjects/Travel app/app/.cxx/Debug/671e5a4j/x86/CMakeFiles/edit_cache.dir
+C:/Users/hughm/AndroidStudioProjects/Travel app/app/.cxx/Debug/671e5a4j/x86/CMakeFiles/rebuild_cache.dir

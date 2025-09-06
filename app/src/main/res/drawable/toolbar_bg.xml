@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="-550dp">   <!-- move image up by 10dp -->
+        <bitmap
+            android:src="@drawable/forestmushroom"
+            android:gravity="center"
+            android:tileMode="disabled"
+            android:scaleType="centerCrop"/>
+    </item>
+</layer-list>

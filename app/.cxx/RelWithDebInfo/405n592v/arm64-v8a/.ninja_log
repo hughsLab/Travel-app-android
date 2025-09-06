@@ -1,0 +1,12 @@
+# ninja log v5
+1	307	7759183650562235	CMakeFiles/image_processing.dir/image_processing.cpp.o	8c1f6c82bd81c3b2
+309	402	7759183651492425	C:/Users/hughm/AndroidStudioProjects/Travel app/app/build/intermediates/cxx/RelWithDebInfo/405n592v/obj/arm64-v8a/libimage_processing.so	c46162aae0251527
+0	7	0	clean	f973a2b4d6468b29
+2	305	7759222407900305	CMakeFiles/image_processing.dir/image_processing.cpp.o	8c1f6c82bd81c3b2
+306	435	7759222409180102	C:/Users/hughm/AndroidStudioProjects/Travel app/app/build/intermediates/cxx/RelWithDebInfo/405n592v/obj/arm64-v8a/libimage_processing.so	c46162aae0251527
+0	8	0	clean	f973a2b4d6468b29
+3	247	7761781420226950	CMakeFiles/image_processing.dir/image_processing.cpp.o	8c1f6c82bd81c3b2
+248	365	7761781421377712	C:/Users/hughm/AndroidStudioProjects/Travel app/app/build/intermediates/cxx/RelWithDebInfo/405n592v/obj/arm64-v8a/libimage_processing.so	c46162aae0251527
+0	8	0	clean	f973a2b4d6468b29
+3	271	7761787929319207	CMakeFiles/image_processing.dir/image_processing.cpp.o	8c1f6c82bd81c3b2
+272	363	7761787930246730	C:/Users/hughm/AndroidStudioProjects/Travel app/app/build/intermediates/cxx/RelWithDebInfo/405n592v/obj/arm64-v8a/libimage_processing.so	c46162aae0251527
